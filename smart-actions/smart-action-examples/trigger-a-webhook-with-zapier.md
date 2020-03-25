@@ -4,7 +4,7 @@ This example shows you how to create a Smart Action "Send SMS" that triggers a [
 
 ![](../../.gitbook/assets/screenshot-2020-03-10-at-16.28.18.png)
 
-## Requirement
+## Requirements
 
 * An admin backend runing on forest-express-sequelize
 * A Zapier account
