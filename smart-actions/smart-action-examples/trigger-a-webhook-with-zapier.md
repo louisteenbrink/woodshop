@@ -12,7 +12,7 @@ This example shows you how to create a Smart Action "Send SMS" that triggers a [
 
 ## How it works
 
-### **File: forest/users.js**
+### **File: /forest**
 
 This file contains the Smart Action declaration `Send SMS`.
 
@@ -29,7 +29,7 @@ collection('users', {
 ```
 {% endcode %}
 
-### **File: routes/users.js**
+### **File: /routes**
 
 This file contains the implementation of the route that handled the `POST /forest/actions/send-sms` API call when you click on the Smart Action in the Forest UI. The route implementation retrieves all the necessary data and triggers another API call directly to a [Zapier hook](https://zapier.com/zapbook/webhook/).
 
@@ -64,7 +64,7 @@ module.exports = router;
 ```
 {% endcode %}
 
-### File: models/users.js
+### File: /models
 
 This file contains the users model generated automatically by Forest Admin.
 
