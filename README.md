@@ -7,7 +7,7 @@ This place is meant to be nourished by our whole community!
 You have implemented a new use case on your Forest Admin?
 
 * trigger a webhook with Zapier via a smart action
-* import CSV data via a smart action
+* display your properties on a map via a smart view
 * track a shipping status via a smart field
 * and more...
 
