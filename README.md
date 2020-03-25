@@ -2,7 +2,7 @@
 
 **Woodshop** provides practical examples to help you dig deeper into the various features of [Forest Admin](https://www.forestadmin.com/).
 
-This place is meant to be nourished by our whole community! Here is [how to contribute](https://docs.forestadmin.com/woodshop/#how-to-contribute).
+This place is meant to be nourished by our whole community!
 
 You have implemented a new use case on your Forest Admin?
 
@@ -11,7 +11,7 @@ You have implemented a new use case on your Forest Admin?
 * track a shipping status via a smart field
 * and more...
 
-Share your example to the world and contribute to this project
+Share your example to the world and **contribute to this project**
 
 ## How to contribute
 
