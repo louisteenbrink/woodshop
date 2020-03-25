@@ -2,7 +2,7 @@
 
 **Woodshop** provides practical examples to help you dig deeper into the various features of [Forest Admin](https://www.forestadmin.com/).
 
-This place is meant to be nourished by our whole community!
+This place is meant to be nourished by our whole community! Here is how to contribute.
 
 You have implemented a new use case on your Forest Admin?
 
@@ -11,9 +11,18 @@ You have implemented a new use case on your Forest Admin?
 * track a shipping status via a smart field
 * and more...
 
-Share your example to the world and contribute to this project by following [this guide](how-to-contribute.md).
+Share your example to the world and contribute to this project
 
-Happy hacking!
+## How to contribute
 
-![Lumberjack building a strong admin panel with Forest Admin.](.gitbook/assets/will-suddreth-o54rjf-c7xo-unsplash.jpg)
+This woodshop is officially maintained by Forest Admin. We're always happy to get contributions from other fellow lumberjacks. All contributions will be reviewed by Forest Admin's team before being merged into master.
+
+Here is the contribution workflow:
+
+1. **Click** on Edit on Github at the top-right corner
+2. **Fork** the repo on GitHub
+3. **Clone** the project to your own machine
+4. **Commit** changes to your own branch
+5. **Push** your work back up to your fork
+6. Submit a **Pull request** so that we can review your changes
 

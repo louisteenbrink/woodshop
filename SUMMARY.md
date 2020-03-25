@@ -1,7 +1,6 @@
 # Table of contents
 
 * [What is woodshop](README.md)
-* [How to contribute](how-to-contribute.md)
 
 ## Smart actions
 

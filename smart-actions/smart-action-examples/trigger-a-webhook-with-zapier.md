@@ -2,7 +2,7 @@
 
 This example shows you how to create a Smart Action "Send SMS" that triggers a [Zapier webhook](https://zapier.com/zapbook/webhook/) to send an SMS message with Twilio.
 
-![](../../.gitbook/assets/screenshot-2020-03-10-at-16.28.18.png)
+![](https://github.com/louisteenbrink/woodshop/tree/3447c46f81d7f214cae08ed8c1f3fb9e63be250d/.gitbook/assets/screenshot-2020-03-10-at-16.28.18.png)
 
 ## Requirements
 
