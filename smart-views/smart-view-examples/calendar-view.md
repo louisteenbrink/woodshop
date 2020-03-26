@@ -1,10 +1,6 @@
 # Calendar view
 
-This calendar view goes a little bit further than the one provided in forest admin example.
-
-* Updated [fullcalendar](https://fullcalendar.io/docs) integration \(4.2.0\)
-* Supports tooltip when hovering the events
-* Supports a dayMonth view and a timeWeek view
+This example shows you how to use a smart view to visualize your data on a clalendar.
 
 ![](../../.gitbook/assets/calendar-view.gif)
 
@@ -12,12 +8,13 @@ This calendar view goes a little bit further than the one provided in forest adm
 
 ## Requirements
 
-* 
+* [fullcalendar](https://fullcalendar.io/docs) integration \(4.2.0\)
+
 ## How it works
 
 ### File: Template
 
-This file contains the Smart Field declaration `Location setter`.
+This file contains handlebars and HTML declaration.
 
 {% code title="template.hbs" %}
 ```css
@@ -159,6 +156,8 @@ This file contains the Smart Field declaration `Location setter`.
 {% endcode %}
 
 ### File: Javascript
+
+This file handle all events or actions
 
 {% code title="component.js" %}
 ```javascript
