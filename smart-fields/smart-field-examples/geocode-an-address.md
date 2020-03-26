@@ -4,7 +4,13 @@ This example shows you how to use an autocomplete address smart field to update 
 
 {% embed url="https://youtu.be/SWldaV29s9U" %}
 
+## Requirements
 
+## How it works
+
+### File: /forest
+
+###  File: /models
 
 
 
