@@ -11,11 +11,11 @@ This example shows you how to use an autocomplete address smart field to update 
 
 ## How it works
 
-### File: /forest
+### Folder: /forest
 
 This file contains the Smart Field declaration `Location setter`.
 
-###  File: /models
+###  Folder: /models
 
 
 
