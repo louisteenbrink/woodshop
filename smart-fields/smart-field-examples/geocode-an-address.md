@@ -11,11 +11,11 @@ This example shows you how to use an autocomplete address smart field to update 
 
 ## How it works
 
-### Folder: /forest
+### Directory: /forest
 
-This file contains the Smart Field declaration `Location setter`.
+This directory contains the `events.js` file where the Smart Field `Location setter`is declared.
 
-###  Folder: /models
+### Directory: /models
 
 
 
