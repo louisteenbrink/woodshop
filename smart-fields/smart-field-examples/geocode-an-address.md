@@ -15,6 +15,48 @@ This example shows you how to use an autocomplete address smart field to update 
 
 This directory contains the `events.js` file where the Smart Field `Location setter`is declared.
 
+{% code title="/forest/events.js" %}
+```javascript
+const { collection } = require('forest-express-mongoose');
+
+const algoliasearch = require('algoliasearch');
+const places = algoliasearch.initPlaces(process.env.PLACES_APP_ID, process.env.PLACES_API_KEY);
+
+collection('events', {
+  fields: [{
+    field: 'Location setter',
+    type: 'String',
+    get: (event) => {
+      return event.address
+    },
+    set: (event, query) => {
+      async function getLocationCoordinates(query){
+          try {
+            const location = await places.search({query: query, type:'address'});
+            console.log('search location coordinates result', location.hits[0]._geoloc);
+            return location.hits[0]._geoloc
+          } catch (err) {
+            console.log(err);
+            console.log(err.debugData);
+          }
+      }
+
+      async function setEvent(event, query) {
+        const coordinates = await getLocationCoordinates(query)
+        event.address = query
+        console.log('new address', event.address)
+        event.locationGeo = `{"type": "Point", "coordinates": [${coordinates.lat}, ${coordinates.lng}]}`
+        console.log('new location', event.locationGeo)
+        return event
+      }
+
+      return setEvent(event, query)
+    }
+  }],
+});
+```
+{% endcode %}
+
 ### Directory: /models
 
 
