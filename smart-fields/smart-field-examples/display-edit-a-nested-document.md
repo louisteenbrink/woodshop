@@ -24,9 +24,11 @@ collection('users', {
   fields: [{
     field: 'firstname',
     type: 'String',
+    // display the firstname
     get: (user) => {
       return user.person.firstname;
     },
+    // edit the firstname
     set: ((user, value) => {
       if(!user.person) {
         user.person = {};
