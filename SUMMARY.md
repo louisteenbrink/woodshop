@@ -16,7 +16,7 @@
 
 ## Smart views
 
-* [What is it](smart-views/untitled.md)
+* [What is it](smart-views/what-is-a-smart-view.md)
 * [Examples](smart-views/smart-view-examples/README.md)
   * [Calendar view](smart-views/smart-view-examples/calendar-view.md)
 
