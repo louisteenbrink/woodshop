@@ -12,7 +12,7 @@ This example shows you how to use a smart view to visualize your data on a clale
 
 ## How it works
 
-### File: Template
+### File: template.hbs
 
 This file contains handlebars and HTML declaration.
 
@@ -155,7 +155,7 @@ This file contains handlebars and HTML declaration.
 ```
 {% endcode %}
 
-### File: Javascript
+### File: javascript.js
 
 This file handle all events or actions
 
