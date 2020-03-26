@@ -11,7 +11,7 @@ You have implemented a new use case on your Forest Admin?
 * track a shipping status via a smart field
 * and more...
 
-Share your example to the world and **contribute to this project**
+Share your example to the world and **contribute to this project!**
 
 ## How to contribute
 
