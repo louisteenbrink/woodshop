@@ -13,6 +13,7 @@
 * [What is it](smart-fields/untitled.md)
 * [Examples](smart-fields/smart-field-examples/README.md)
   * [Geocode an address](smart-fields/smart-field-examples/geocode-an-address.md)
+  * [Display/edit a nested document](smart-fields/smart-field-examples/display-edit-a-nested-document.md)
 
 ## Smart views
 
