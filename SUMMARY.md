@@ -17,4 +17,5 @@
 ## Smart views
 
 * [Untitled](smart-views/untitled.md)
+* [Main documentation](https://docs.forestadmin.com/documentation/)
 
