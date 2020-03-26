@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="654px" height="511px" viewBox="0 0 654 511" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="219.199987" cy="219.199987" r="219.199987"></circle>
+        <linearGradient x1="93.6808008%" y1="73.8284846%" x2="-8.8817842e-14%" y2="-8.72233885%" id="linearGradient-3">
+            <stop stop-color="#283845" offset="0%"></stop>
+            <stop stop-color="#283845" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="38.8075049%" y1="0.444813079%" x2="100%" y2="60.8414366%" id="linearGradient-4">
+            <stop stop-color="#283845" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#283845" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-4.5%" y="-4.6%" width="109.1%" height="109.2%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="101.606657%" y1="45.4437099%" x2="-83.3504153%" y2="52.3515713%" id="linearGradient-6">
+            <stop stop-color="#3673E8" offset="0%"></stop>
+            <stop stop-color="#113A96" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="101.606657%" y1="34.2014972%" x2="-83.3504153%" y2="58.1538498%" id="linearGradient-7">
+            <stop stop-color="#3673E8" offset="0%"></stop>
+            <stop stop-color="#113A96" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="101.606657%" y1="47.9683137%" x2="-83.3504153%" y2="51.0485845%" id="linearGradient-8">
+            <stop stop-color="#3673E8" offset="0%"></stop>
+            <stop stop-color="#113A96" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="11.0548087%" y1="50%" x2="112.748598%" y2="48.0582111%" id="linearGradient-9">
+            <stop stop-color="#96111F" offset="0%"></stop>
+            <stop stop-color="#EE0036" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="39.7717864%" y1="50%" x2="66.4797256%" y2="0%" id="linearGradient-10">
+            <stop stop-color="#96111F" offset="0%"></stop>
+            <stop stop-color="#EE0036" offset="100%"></stop>
+        </linearGradient>
+        <path d="M3.19999981,0 L140.8,0 C142.567311,-7.68738991e-16 144,1.43268872 144,3.19999981 L144,99.1999941 C144,100.967305 142.567311,102.399994 140.8,102.399994 L3.19999981,102.399994 C1.43268872,102.399994 -2.27656022e-16,100.967305 0,99.1999941 L0,3.19999981 C2.27656022e-16,1.43268872 1.43268872,-1.19439429e-16 3.19999981,0 Z" id="path-11"></path>
+        <filter x="-19.4%" y="-19.5%" width="138.9%" height="154.7%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M3.19999981,0 L140.8,0 C142.567311,-7.68738991e-16 144,1.43268872 144,3.19999981 L144,99.1999941 C144,100.967305 142.567311,102.399994 140.8,102.399994 L3.19999981,102.399994 C1.43268872,102.399994 -2.27656022e-16,100.967305 0,99.1999941 L0,3.19999981 C2.27656022e-16,1.43268872 1.43268872,-1.19439429e-16 3.19999981,0 Z" id="path-13"></path>
+        <filter x="-19.4%" y="-19.5%" width="138.9%" height="154.7%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M3.19999981,0 L140.8,0 C142.567311,-7.68738991e-16 144,1.43268872 144,3.19999981 L144,99.1999941 C144,100.967305 142.567311,102.399994 140.8,102.399994 L3.19999981,102.399994 C1.43268872,102.399994 -2.27656022e-16,100.967305 0,99.1999941 L0,3.19999981 C2.27656022e-16,1.43268872 1.43268872,-1.19439429e-16 3.19999981,0 Z" id="path-15"></path>
+        <filter x="-19.4%" y="-19.5%" width="138.9%" height="154.7%" filterUnits="objectBoundingBox" id="filter-16">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M3.19999981,0 L140.8,0 C142.567311,-7.68738991e-16 144,1.43268872 144,3.19999981 L144,99.1999941 C144,100.967305 142.567311,102.399994 140.8,102.399994 L3.19999981,102.399994 C1.43268872,102.399994 -2.27656022e-16,100.967305 0,99.1999941 L0,3.19999981 C2.27656022e-16,1.43268872 1.43268872,-1.19439429e-16 3.19999981,0 Z" id="path-17"></path>
+        <filter x="-19.4%" y="-19.5%" width="138.9%" height="154.7%" filterUnits="objectBoundingBox" id="filter-18">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M3.19999981,0 L140.8,0 C142.567311,-7.68738991e-16 144,1.43268872 144,3.19999981 L144,99.1999941 C144,100.967305 142.567311,102.399994 140.8,102.399994 L3.19999981,102.399994 C1.43268872,102.399994 -2.27656022e-16,100.967305 0,99.1999941 L0,3.19999981 C2.27656022e-16,1.43268872 1.43268872,-1.19439429e-16 3.19999981,0 Z" id="path-19"></path>
+        <filter x="-19.4%" y="-19.5%" width="138.9%" height="154.7%" filterUnits="objectBoundingBox" id="filter-20">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="-175.314802%" y1="-100.931119%" x2="254.761766%" y2="126.860068%" id="linearGradient-21">
+            <stop stop-color="#CFE7FE" offset="0%"></stop>
+            <stop stop-color="#155DCC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-175.314802%" y1="-100.931119%" x2="254.761766%" y2="126.860068%" id="linearGradient-22">
+            <stop stop-color="#EE0036" offset="0%"></stop>
+            <stop stop-color="#FECFDE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="New-Branding-Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Forest2020_Smart-Concept-Copy" transform="translate(-686.000000, -5084.000000)">
+            <g id="Group-5" transform="translate(690.000000, 5092.000000)">
+                <g id="Group-2-Copy-5" transform="translate(0.399997, 6.999999)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <g mask="url(#mask-2)" opacity="0.159688">
+                        <g transform="translate(-79.199995, -66.399996)">
+                            <g transform="translate(315.879204, 315.797033) rotate(30.000000) translate(-315.879204, -315.797033) translate(84.879204, 84.797033)">
+                                <g id="Group-2" opacity="0.64" transform="translate(0.498591, 0.479630)">
+                                    <path d="M127.529064,334.041647 L127.521064,401.028647 L60.5350638,401.037647 L60.5430638,334.050647 L127.529064,334.041647 Z M261.615064,334.025647 L261.607064,401.012647 L194.620064,401.020647 L194.629064,334.033647 L261.615064,334.025647 Z M395.702064,334.008647 L395.694064,400.995647 L328.707064,401.003647 L328.715064,334.016647 L395.702064,334.008647 Z M127.546064,199.955647 L127.538064,266.942647 L60.5510638,266.950647 L60.5590638,199.963647 L127.546064,199.955647 Z M261.632064,199.938647 L261.624064,266.925647 L194.637064,266.933647 L194.645064,199.946647 L261.632064,199.938647 Z M395.719064,199.922647 L395.711064,266.909647 L328.724064,266.917647 L328.732064,199.930647 L395.719064,199.922647 Z M127.562064,65.8696466 L127.554064,132.856647 L60.5670638,132.864647 L60.5750638,65.8776466 L127.562064,65.8696466 Z M261.648064,65.8536466 L261.640064,132.839647 L194.654064,132.847647 L194.662064,65.8616466 L261.648064,65.8536466 Z M395.735064,65.8376466 L395.727064,132.823647 L328.740064,132.831647 L328.748064,65.8456466 L395.735064,65.8376466 Z" id="Combined-Shape" fill="url(#linearGradient-3)" style="mix-blend-mode: multiply;"></path>
+                                    <path d="M393.565917,0.486879955 C394.449573,0.486351682 395.166345,1.20226766 395.166873,2.08592305 L395.166873,2.08786593 L395.127155,65.8658797 L458.55713,65.8272621 C459.440785,65.8267174 460.157571,66.54262 460.158116,67.4262754 L460.158116,67.4282183 L460.120139,130.954074 C460.119611,131.836971 459.404022,132.552573 458.521126,132.553117 L395.086155,132.59188 L395.044155,199.88488 L458.55713,199.846653 C459.440785,199.846108 460.157571,200.562011 460.158116,201.445666 L460.158116,201.447609 L460.120139,264.974029 C460.119611,265.856926 459.404022,266.572528 458.521126,266.573072 L395.003155,266.61188 L394.962155,333.90488 L458.557008,333.86661 C459.440664,333.866066 460.15745,334.581968 460.157994,335.465624 L460.157994,335.467566 L460.120017,398.993987 C460.119489,399.876883 459.403901,400.592485 458.521004,400.59303 L394.921155,400.63188 L394.885292,458.849838 C394.884748,459.732735 394.169145,460.448324 393.286249,460.448852 L329.760486,460.486829 C328.876831,460.487357 328.160059,459.771441 328.15953,458.887786 L328.15953,458.885843 L328.195155,400.67288 L260.902155,400.71388 L260.866656,458.848241 C260.866112,459.731138 260.15051,460.446727 259.267613,460.447254 L195.74185,460.485232 C194.858195,460.48576 194.141422,459.769844 194.140894,458.886189 L194.140894,458.884246 L194.176155,400.75588 L126.883155,400.79688 L126.848019,458.849838 C126.847475,459.732735 126.131873,460.448324 125.248976,460.448852 L61.7232138,460.486829 C60.8395584,460.487357 60.1227859,459.771441 60.1222577,458.887786 L60.1222577,458.885843 L60.1581553,400.83788 L1.75942789,400.874614 C0.875772514,400.875159 0.158986681,400.159256 0.158441926,399.275601 L0.158441913,399.273649 L0.19677524,335.747229 C0.197307999,334.864335 0.912895253,334.148739 1.79578849,334.148195 L60.1991553,334.11188 L60.2401553,266.81788 L1.75914129,266.854657 C0.87548591,266.855201 0.158700077,266.139299 0.158155321,265.255643 L0.158155311,265.253687 L0.196649466,201.727268 C0.197184459,200.844376 0.912771058,200.128782 1.79566271,200.128237 L60.2811553,200.09188 L60.3231553,132.79788 L1.75914129,132.834699 C0.875485909,132.835244 0.15870008,132.119341 0.15815533,131.235686 L0.158155319,131.23373 L0.196649458,67.7078742 C0.197184455,66.8249825 0.912771058,66.1093884 1.79566271,66.1088441 L60.3641553,66.0718797 L60.4038393,2.12387058 C60.4043835,1.24097385 61.1199856,0.52538514 62.0028823,0.524857321 L125.528645,0.486879955 C126.4123,0.486351682 127.129072,1.20226766 127.129601,2.08592305 L127.129601,2.08786593 L127.090155,66.0308797 L194.383155,65.9898797 L194.422475,2.12387058 C194.423019,1.24097385 195.138621,0.525385141 196.021518,0.524857322 L259.547281,0.486879955 C260.430936,0.486351682 261.147709,1.20226766 261.148237,2.08592305 L261.148237,2.08786593 L261.109155,65.9478797 L328.401155,65.9068797 L328.441112,2.12387058 C328.441656,1.24097385 329.157258,0.52538514 330.040155,0.524857321 L393.565917,0.486879955 Z M194.259155,266.73588 L126.966155,266.77688 L126.924155,334.07088 L194.217155,334.02888 L194.259155,266.73588 Z M328.277155,266.65288 L260.985155,266.69388 L260.943155,333.98788 L328.236155,333.94588 L328.277155,266.65288 Z M194.341155,132.71588 L127.048155,132.75688 L127.007155,200.05088 L194.300155,200.00888 L194.341155,132.71588 Z M328.360155,132.63288 L261.067155,132.67388 L261.026155,199.96788 L328.318155,199.92588 L328.360155,132.63288 Z" id="Combined-Shape" fill="url(#linearGradient-4)" opacity="0.658644903" style="mix-blend-mode: multiply;"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-42" transform="translate(380.399975, 87.799994)">
+                    <g id="Group-48">
+                        <g id="Group-47" filter="url(#filter-5)" transform="translate(0.000000, 0.400000)">
+                            <g id="Group-15">
+                                <path d="M0,0 L255.400001,0 C260.701934,-9.73949344e-16 265,4.29806615 265,9.59999943 L265,51.5999969 L265,51.5999969 L0,51.5999969 L0,0 Z" id="Rectangle-6" fill="#F2F6FA"></path>
+                                <g id="Group-14" transform="translate(23.999999, 11.999999)">
+                                    <g id="Group-16" transform="translate(0.000000, 3.600000)">
+                                        <text id="id" font-family="ProximaNova-Medium, Proxima Nova" font-size="16.799999" font-weight="400" fill="#3A3335">
+                                            <tspan x="0" y="15">id</tspan>
+                                        </text>
+                                        <polygon id="Triangle-3" fill="#8798AC" points="27.5999984 4.79999971 31.1999981 9.59999943 23.9999986 9.59999943"></polygon>
+                                        <polygon id="Triangle-3" fill="#52606E" transform="translate(27.599998, 14.399999) rotate(180.000000) translate(-27.599998, -14.399999) " points="27.5999984 11.9999993 31.1999981 16.799999 23.9999986 16.799999"></polygon>
+                                    </g>
+                                    <g id="Group-17" transform="translate(43.199997, 0.000000)">
+                                        <text id="Name" font-family="ProximaNova-Medium, Proxima Nova" font-size="16.799999" font-weight="400" fill="#3A3335">
+                                            <tspan x="13.1999992" y="18.5999998">Name</tspan>
+                                        </text>
+                                        <g id="Group-3" transform="translate(92.399994, 8.399999)" fill="#8798AC">
+                                            <polygon id="Triangle-3" points="3.59999979 0 7.19999957 4.79999971 0 4.79999971"></polygon>
+                                            <polygon id="Triangle-3" transform="translate(3.600000, 9.599999) rotate(180.000000) translate(-3.600000, -9.599999) " points="3.59999979 7.19999957 7.19999957 11.9999993 0 11.9999993"></polygon>
+                                        </g>
+                                        <rect id="Rectangle-9" fill="#ADB9C6" x="0" y="0" width="1.19999993" height="27.5999984"></rect>
+                                    </g>
+                                    <g id="Group-18" transform="translate(154.799991, 0.000000)">
+                                        <text id="Amount" font-family="ProximaNova-Medium, Proxima Nova" font-size="16.799999" font-weight="400" fill="#3A3335">
+                                            <tspan x="13.1999992" y="18.5999998">Amount </tspan>
+                                        </text>
+                                        <rect id="Rectangle-9" fill="#ADB9C6" x="0" y="0" width="1.19999993" height="27.5999984"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="Group-15-Copy" transform="translate(0.000000, 51.599997)">
+                                <polygon id="Rectangle-6" fill="#FFFFFF" points="0 -3.97903932e-13 265 -3.97903932e-13 265 51.5999969 0 51.5999969"></polygon>
+                                <rect id="Rectangle-24" stroke="#193FCC" stroke-width="1.19999993" fill="#E9F4FD" x="185.399989" y="13.7999992" width="50.399997" height="23.9999986" rx="4.79999971"></rect>
+                                <text id="$-158" font-family="ProximaNova-Regular, Proxima Nova" font-size="15.5999991" font-weight="normal" fill="#193FCC">
+                                    <tspan x="191.999989" y="30.799999">$ 158</tspan>
+                                </text>
+                                <g id="Group-14" transform="translate(23.999999, 16.799999)" font-size="15.5999991">
+                                    <g id="Group-16" fill="#647A93" font-family="ProximaNova-Regular, Proxima Nova" font-weight="normal">
+                                        <text id="51">
+                                            <tspan x="0" y="14">51</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="Group-17" transform="translate(56.399997, 0.000000)" fill="#193FCC" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="500">
+                                        <text id="Jake">
+                                            <tspan x="0" y="14">Jake</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="Group-15-Copy-3" transform="translate(0.000000, 157.199991)">
+                                <polygon id="Rectangle-6" fill="#FFFFFF" points="0 -3.41060513e-13 265 -3.41060513e-13 265 51.5999969 0 51.5999969"></polygon>
+                                <g id="Group-14" transform="translate(23.999999, 16.799999)" fill="#647A93" font-family="ProximaNova-Regular, Proxima Nova" font-size="15.5999991" font-weight="normal">
+                                    <g id="Group-16">
+                                        <text id="53">
+                                            <tspan x="0" y="14">53</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="Group-15-Copy-2" transform="translate(0.000000, 104.399994)">
+                                <polygon id="Rectangle-6" fill="#F2F6FA" points="0 -1.27897692e-13 265 -1.27897692e-13 265 51.5999969 0 51.5999969"></polygon>
+                                <rect id="Rectangle-24-Copy" stroke="#EE0036" stroke-width="1.19999993" fill-opacity="0.1" fill="#FB6669" x="185.399989" y="13.7999992" width="50.399997" height="23.9999986" rx="4.79999971"></rect>
+                                <text id="$-176" font-family="ProximaNova-Regular, Proxima Nova" font-size="15.5999991" font-weight="normal" fill="#EE0036">
+                                    <tspan x="191.999989" y="30.799999">$ 176</tspan>
+                                </text>
+                                <g id="Group-14" transform="translate(23.999999, 16.799999)" font-size="15.5999991">
+                                    <g id="Group-16" fill="#647A93" font-family="ProximaNova-Regular, Proxima Nova" font-weight="normal">
+                                        <text id="52">
+                                            <tspan x="0" y="14">52</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="Group-17" transform="translate(56.399997, 0.000000)" fill="#EE0036" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="500">
+                                        <text id="Lucie">
+                                            <tspan x="0" y="14">Lucie</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="Group-15-Copy-4" transform="translate(0.000000, 209.999987)">
+                                <path d="M0,-5.68434189e-14 L265,-5.68434189e-14 L265,41.9999975 C265,47.3019308 260.701934,51.5999969 255.400001,51.5999969 L0,51.5999969 L0,51.5999969 L0,-5.68434189e-14 Z" id="Rectangle-6" fill="#F2F6FA"></path>
+                                <g id="Group-14" transform="translate(23.999999, 16.799999)" fill="#647A93" font-family="ProximaNova-Regular, Proxima Nova" font-size="15.5999991" font-weight="normal">
+                                    <g id="Group-16">
+                                        <text id="54">
+                                            <tspan x="0" y="14">54</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-21" transform="translate(80.799995, 179.199989)" fill="#3A3335">
+                        <path d="M3.19999981,0 L52.8000002,0 C54.5673113,-3.24649781e-16 56,1.43268872 56,3.19999981 L56,4.80000019 C56,6.56731128 54.5673113,8 52.8000002,8 L3.19999981,8 C1.43268872,8 -2.27656022e-16,6.56731128 0,4.80000019 L0,3.19999981 C-2.16433187e-16,1.43268872 1.43268872,3.24649781e-16 3.19999981,0 Z" id="Rectangle-2-Copy-16"></path>
+                        <path d="M125.599993,0 L139.999992,0 C141.767303,1.19439429e-16 143.199991,1.43268872 143.199991,3.19999981 L143.199991,4.80000019 C143.199991,6.56731128 141.767303,8 139.999992,8 L125.599993,8 C123.832681,8 122.399993,6.56731128 122.399993,4.80000019 L122.399993,3.19999981 C122.399993,1.43268872 123.832681,7.68738991e-16 125.599993,0 Z" id="Rectangle-2-Copy-18"></path>
+                        <path d="M112.799993,0 L115.199993,0 C116.967304,-3.24649781e-16 118.399993,1.43268872 118.399993,3.19999981 L118.399993,4.80000019 C118.399993,6.56731128 116.967304,8 115.199993,8 L112.799993,8 C111.032682,8 109.599993,6.56731128 109.599993,4.80000019 L109.599993,3.19999981 C109.599993,1.43268872 111.032682,3.24649781e-16 112.799993,0 Z" id="Rectangle-2-Copy-20"></path>
+                        <path d="M3.19999981,52.7999969 L52.8000002,52.7999969 C54.5673113,52.7999969 56,54.2326856 56,55.9999967 L56,57.599997 C56,59.3673081 54.5673113,60.7999969 52.8000002,60.7999969 L3.19999981,60.7999969 C1.43268872,60.7999969 -2.27656022e-16,59.3673081 0,57.599997 L0,55.9999967 C-2.16433187e-16,54.2326856 1.43268872,52.7999969 3.19999981,52.7999969 Z" id="Rectangle-2-Copy-17"></path>
+                        <path d="M125.599993,52.7999969 L139.999992,52.7999969 C141.767303,52.7999969 143.199991,54.2326856 143.199991,55.9999967 L143.199991,57.599997 C143.199991,59.3673081 141.767303,60.7999969 139.999992,60.7999969 L125.599993,60.7999969 C123.832681,60.7999969 122.399993,59.3673081 122.399993,57.599997 L122.399993,55.9999967 C122.399993,54.2326856 123.832681,52.7999969 125.599993,52.7999969 Z" id="Rectangle-2-Copy-19"></path>
+                        <path d="M112.799993,52.7999969 L115.199993,52.7999969 C116.967304,52.7999969 118.399993,54.2326856 118.399993,55.9999967 L118.399993,57.599997 C118.399993,59.3673081 116.967304,60.7999969 115.199993,60.7999969 L112.799993,60.7999969 C111.032682,60.7999969 109.599993,59.3673081 109.599993,57.599997 L109.599993,55.9999967 C109.599993,54.2326856 111.032682,52.7999969 112.799993,52.7999969 Z" id="Rectangle-2-Copy-21"></path>
+                    </g>
+                </g>
+                <g id="Group" transform="translate(68.399993, 55.399994)" stroke-width="0.799999952">
+                    <polyline id="Path-22" stroke="url(#linearGradient-6)" points="217.710369 42.2000027 277.015511 75.1999989 277.015511 126.448922 304.091501 110.712273 332.79998 124.399995 468.360158 124.399995 496.79997 110.712273"></polyline>
+                    <line x1="52.200002" y1="0.20000267" x2="276.71036" y2="126.400003" id="Path-23" stroke="url(#linearGradient-7)"></line>
+                    <polyline id="Path-24" stroke="url(#linearGradient-8)" points="73.3942843 156.177507 152.679652 112.196742 226.033079 156.177507 291.576553 117.999995"></polyline>
+                    <polyline id="Path-25" stroke="url(#linearGradient-9)" points="0.399999976 239.599988 179.758342 141.775462 275.200005 198.552972 311.999981 177.777505 469.897315 177.777505 496.79997 163.999992"></polyline>
+                    <polyline id="Path-26" stroke="url(#linearGradient-10)" points="199.199988 349 199.385254 239.832101 276.71036 197.752973"></polyline>
+                </g>
+                <g id="Group-4" transform="translate(193.000000, 0.000000)">
+                    <g id="Group-14-Copy">
+                        <g id="Rectangle-11">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                        </g>
+                        <path d="M11.1999993,36.7999978 L60.7999997,36.7999978 C62.5673108,36.7999978 63.9999995,38.2326865 63.9999995,39.9999976 L63.9999995,41.599998 C63.9999995,43.3673091 62.5673108,44.7999978 60.7999997,44.7999978 L11.1999993,44.7999978 C9.43268824,44.7999978 7.99999952,43.3673091 7.99999952,41.599998 L7.99999952,39.9999976 C7.99999952,38.2326865 9.43268824,36.7999978 11.1999993,36.7999978 Z" id="Rectangle-2-Copy-16" fill="#3A3335"></path>
+                        <path d="M3.19999981,0 L140.8,0 C142.567311,1.19439429e-16 144,1.43268872 144,3.19999981 L144,24 L144,24 L0,24 L0,3.19999981 C-2.16433187e-16,1.43268872 1.43268872,-1.19439429e-16 3.19999981,0 Z" id="Rectangle-11" fill="#193FCC"></path>
+                        <text id="Jake" font-family="ProximaNova-Semibold, Proxima Nova" font-size="12.7999992" font-weight="500" letter-spacing="0.82285714" fill="#FFFFFF">
+                            <tspan x="7.99999952" y="15.1999998">Jake</tspan>
+                        </text>
+                    </g>
+                    <text id="$14" font-family="ProximaNova-Semibold, Proxima Nova" font-size="25.5999985" font-weight="500" letter-spacing="1.64571428" fill="#103A97">
+                        <tspan x="93.5999944" y="81.5999966">$14</tspan>
+                    </text>
+                    <line x1="27.1999984" y1="73.1999956" x2="7.99999952" y2="73.1999956" id="Line" stroke="#3A3335" stroke-width="0.799999952" stroke-linecap="square"></line>
+                </g>
+                <g id="Group-4-Copy-2" transform="translate(12.000000, 0.000000)">
+                    <g id="Group-14-Copy">
+                        <g id="Rectangle-11">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-13"></use>
+                        </g>
+                        <path d="M11.1999993,36.7999978 L60.7999997,36.7999978 C62.5673108,36.7999978 63.9999995,38.2326865 63.9999995,39.9999976 L63.9999995,41.599998 C63.9999995,43.3673091 62.5673108,44.7999978 60.7999997,44.7999978 L11.1999993,44.7999978 C9.43268824,44.7999978 7.99999952,43.3673091 7.99999952,41.599998 L7.99999952,39.9999976 C7.99999952,38.2326865 9.43268824,36.7999978 11.1999993,36.7999978 Z" id="Rectangle-2-Copy-15" fill="#3A3335"></path>
+                        <path d="M3.19999981,0 L140.8,0 C142.567311,1.19439429e-16 144,1.43268872 144,3.19999981 L144,24 L144,24 L0,24 L0,3.19999981 C-2.16433187e-16,1.43268872 1.43268872,-1.19439429e-16 3.19999981,0 Z" id="Rectangle-11" fill="#193FCC"></path>
+                        <text id="Jake" font-family="ProximaNova-Semibold, Proxima Nova" font-size="12.7999992" font-weight="500" letter-spacing="0.82285714" fill="#FFFFFF">
+                            <tspan x="7.99999952" y="15.1999998">Jake</tspan>
+                        </text>
+                    </g>
+                    <text id="$20" font-family="ProximaNova-Semibold, Proxima Nova" font-size="25.5999985" font-weight="500" letter-spacing="1.64571428" fill="#103A97">
+                        <tspan x="87.1999948" y="81.5999966">$20</tspan>
+                    </text>
+                    <line x1="27.1999984" y1="73.1999956" x2="7.99999952" y2="73.1999956" id="Line" stroke="#3A3335" stroke-width="0.799999952" stroke-linecap="square"></line>
+                </g>
+                <g id="Group-4-Copy-3" transform="translate(12.000000, 274.000000)">
+                    <g id="Group-14-Copy">
+                        <g id="Rectangle-11">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-15"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-15"></use>
+                        </g>
+                        <path d="M11.1999993,36.7999978 L60.7999997,36.7999978 C62.5673108,36.7999978 63.9999995,38.2326865 63.9999995,39.9999976 L63.9999995,41.599998 C63.9999995,43.3673091 62.5673108,44.7999978 60.7999997,44.7999978 L11.1999993,44.7999978 C9.43268824,44.7999978 7.99999952,43.3673091 7.99999952,41.599998 L7.99999952,39.9999976 C7.99999952,38.2326865 9.43268824,36.7999978 11.1999993,36.7999978 Z" id="Rectangle-2-Copy-16" fill="#3A3335"></path>
+                        <path d="M3.19999981,0 L140.8,0 C142.567311,1.19439429e-16 144,1.43268872 144,3.19999981 L144,24 L144,24 L0,24 L0,3.19999981 C-2.16433187e-16,1.43268872 1.43268872,-1.19439429e-16 3.19999981,0 Z" id="Rectangle-11" fill="#EE0036"></path>
+                        <text id="Lucie" font-family="ProximaNova-Semibold, Proxima Nova" font-size="12.7999992" font-weight="500" letter-spacing="0.82285714" fill="#FFFFFF">
+                            <tspan x="7.99999952" y="15.1999998">Lucie</tspan>
+                        </text>
+                    </g>
+                    <text id="$144" font-family="ProximaNova-Semibold, Proxima Nova" font-size="25.5999985" font-weight="500" letter-spacing="1.64571428" fill="#103A97">
+                        <tspan x="77.5999954" y="81.5999966">$144</tspan>
+                    </text>
+                    <line x1="27.1999984" y1="73.1999956" x2="7.99999952" y2="73.1999956" id="Line" stroke="#3A3335" stroke-width="0.799999952" stroke-linecap="square"></line>
+                </g>
+                <g id="Group-4-Copy-4" transform="translate(12.000000, 137.000000)">
+                    <g id="Group-14-Copy">
+                        <g id="Rectangle-11">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-18)" xlink:href="#path-17"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-17"></use>
+                        </g>
+                        <path d="M11.1999993,36.7999978 L60.7999997,36.7999978 C62.5673108,36.7999978 63.9999995,38.2326865 63.9999995,39.9999976 L63.9999995,41.599998 C63.9999995,43.3673091 62.5673108,44.7999978 60.7999997,44.7999978 L11.1999993,44.7999978 C9.43268824,44.7999978 7.99999952,43.3673091 7.99999952,41.599998 L7.99999952,39.9999976 C7.99999952,38.2326865 9.43268824,36.7999978 11.1999993,36.7999978 Z" id="Rectangle-2-Copy-16" fill="#3A3335"></path>
+                        <path d="M3.19999981,0 L140.8,0 C142.567311,1.19439429e-16 144,1.43268872 144,3.19999981 L144,24 L144,24 L0,24 L0,3.19999981 C-2.16433187e-16,1.43268872 1.43268872,-1.19439429e-16 3.19999981,0 Z" id="Rectangle-11" fill="#193FCC"></path>
+                        <text id="Jake" font-family="ProximaNova-Semibold, Proxima Nova" font-size="12.7999992" font-weight="500" letter-spacing="0.82285714" fill="#FFFFFF">
+                            <tspan x="7.99999952" y="15.1999998">Jake</tspan>
+                        </text>
+                    </g>
+                    <text id="$124" font-family="ProximaNova-Semibold, Proxima Nova" font-size="25.5999985" font-weight="500" letter-spacing="1.64571428" fill="#103A97">
+                        <tspan x="77.5999954" y="81.5999966">$124</tspan>
+                    </text>
+                    <line x1="27.1999984" y1="73.1999956" x2="7.99999952" y2="73.1999956" id="Line" stroke="#3A3335" stroke-width="0.799999952" stroke-linecap="square"></line>
+                </g>
+                <g id="Group-4-Copy" transform="translate(193.000000, 377.000000)">
+                    <g id="Group-14-Copy">
+                        <g id="Rectangle-11">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-19"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-19"></use>
+                        </g>
+                        <path d="M11.1999993,37.5999978 L60.7999997,37.5999978 C62.5673108,37.5999978 63.9999995,39.0326865 63.9999995,40.7999976 L63.9999995,42.3999979 C63.9999995,44.167309 62.5673108,45.5999978 60.7999997,45.5999978 L11.1999993,45.5999978 C9.43268824,45.5999978 7.99999952,44.167309 7.99999952,42.3999979 L7.99999952,40.7999976 C7.99999952,39.0326865 9.43268824,37.5999978 11.1999993,37.5999978 Z" id="Rectangle-2-Copy-14" fill="#3A3335"></path>
+                        <path d="M3.19999981,0 L140.8,0 C142.567311,1.19439429e-16 144,1.43268872 144,3.19999981 L144,24 L144,24 L0,24 L0,3.19999981 C-2.16433187e-16,1.43268872 1.43268872,-1.19439429e-16 3.19999981,0 Z" id="Rectangle-11" fill="#EE0036"></path>
+                        <text id="Lucie" font-family="ProximaNova-Semibold, Proxima Nova" font-size="12.7999992" font-weight="500" letter-spacing="0.82285714" fill="#FFFFFF">
+                            <tspan x="7.99999952" y="15.1999998">Lucie</tspan>
+                        </text>
+                    </g>
+                    <text id="$32" font-family="ProximaNova-Semibold, Proxima Nova" font-size="25.5999985" font-weight="500" letter-spacing="1.64571428" fill="#103A97">
+                        <tspan x="88.7999947" y="81.5999966">$32</tspan>
+                    </text>
+                    <line x1="27.1999984" y1="73.1999956" x2="7.99999952" y2="73.1999956" id="Line" stroke="#3A3335" stroke-width="0.799999952" stroke-linecap="square"></line>
+                </g>
+                <circle id="Oval-Copy-2" stroke="url(#linearGradient-21)" stroke-width="0.5" opacity="0.6" cx="343.999999" cy="180.999999" r="15.999999"></circle>
+                <circle id="Oval" stroke="url(#linearGradient-22)" stroke-width="0.5" cx="342.599999" cy="253.599999" r="5.59999967"></circle>
+                <circle id="Oval" stroke="url(#linearGradient-22)" stroke-width="0.5" opacity="0.16" cx="342.599999" cy="253.599999" r="21.5999987"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -10,7 +10,9 @@
 
 ## Smart fields
 
-* [Untitled](smart-fields/untitled.md)
+* [What is it](smart-fields/untitled.md)
+* [Examples](smart-fields/smart-field-examples/README.md)
+  * [Geocode an address](smart-fields/smart-field-examples/geocode-an-address.md)
 
 ## Smart views
 
