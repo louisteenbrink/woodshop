@@ -1,4 +1,4 @@
-# What is a smart action
+# What is it
 
 **What is it?**
 

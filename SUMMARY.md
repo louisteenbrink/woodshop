@@ -4,8 +4,8 @@
 
 ## Smart actions
 
-* [What is a smart action](smart-actions/what-is-a-smart-action.md)
-* [Smart action examples](smart-actions/smart-action-examples/README.md)
+* [What is it](smart-actions/what-is-a-smart-action.md)
+* [Examples](smart-actions/smart-action-examples/README.md)
   * [Trigger a webhook with Zapier](smart-actions/smart-action-examples/trigger-a-webhook-with-zapier.md)
 
 ## Smart fields

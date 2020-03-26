@@ -1,2 +1,2 @@
-# Smart action examples
+# Examples
 
