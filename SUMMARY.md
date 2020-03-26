@@ -19,5 +19,4 @@
 * [What is it](smart-views/untitled.md)
 * [Examples](smart-views/smart-view-examples/README.md)
   * [Calendar view](smart-views/smart-view-examples/calendar-view.md)
-* [Main documentation](https://docs.forestadmin.com/documentation/)
 
