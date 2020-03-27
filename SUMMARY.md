@@ -2,22 +2,10 @@
 
 * [What is woodshop](README.md)
 
-## Smart actions
+## How to's
 
-* [What is it](smart-actions/what-is-a-smart-action.md)
-* [Examples](smart-actions/smart-action-examples/README.md)
-  * [Trigger a webhook with Zapier](smart-actions/smart-action-examples/trigger-a-webhook-with-zapier.md)
-
-## Smart fields
-
-* [What is it](smart-fields/untitled.md)
-* [Examples](smart-fields/smart-field-examples/README.md)
-  * [Geocode an address](smart-fields/smart-field-examples/geocode-an-address.md)
-  * [Display/edit a nested document](smart-fields/smart-field-examples/display-edit-a-nested-document.md)
-
-## Smart views
-
-* [What is it](smart-views/what-is-a-smart-view.md)
-* [Examples](smart-views/smart-view-examples/README.md)
-  * [Calendar view](smart-views/smart-view-examples/calendar-view.md)
+* [Geocode an address](how-tos/geocode-an-address.md)
+* [Display/edit a nested document](how-tos/display-edit-a-nested-document.md)
+* [Trigger a webhook with Zapier](how-tos/trigger-a-webhook-with-zapier.md)
+* [Calendar view](how-tos/calendar-view.md)
 

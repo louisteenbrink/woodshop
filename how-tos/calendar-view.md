@@ -2,7 +2,7 @@
 
 This example shows you how to use a smart view to visualize your data on a clalendar.
 
-![](../../.gitbook/assets/calendar-view.gif)
+![](../.gitbook/assets/calendar-view.gif)
 
 
 
