@@ -4,7 +4,7 @@
 
 ## How to's
 
-* [Geocode an address](how-tos/geocode-an-address.md)
+* [Geocode an address with Algolia](how-tos/geocode-an-address.md)
 * [Display/edit a nested document](how-tos/display-edit-a-nested-document.md)
 * [Trigger a webhook with Zapier](how-tos/trigger-a-webhook-with-zapier.md)
 * [Calendar view](how-tos/calendar-view.md)

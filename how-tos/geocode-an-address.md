@@ -1,4 +1,4 @@
-# Geocode an address
+# Geocode an address with Algolia
 
 This example shows you how to use an autocomplete address smart field to update a PostreSQL geography point \(lat, long\).
 
