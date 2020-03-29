@@ -1,4 +1,4 @@
-# Calendar view
+# Display a calendar view
 
 This example shows you how to use a smart view to visualize your data on a clalendar.
 
