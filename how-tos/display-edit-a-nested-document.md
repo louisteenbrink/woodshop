@@ -8,7 +8,7 @@ Nested document in Forest Admin are not visible in the table view and are are di
 
 ## Requirements <a id="requirements"></a>
 
-* An admin backend runing on forest-express-mongoose
+* An admin backend running on forest-express-mongoose
 
 ## How it works
 
