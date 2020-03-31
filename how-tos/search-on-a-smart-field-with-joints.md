@@ -1,8 +1,10 @@
 # Search on a smart field with two joints
 
-This example shows you how to search on a smart field to display a belongsTo smart relationship.  
+This example shows you how to search on a smart field which display a belongsTo smart relationship.  
   
-We have an **order** which `belongsTo` a **customer** which `belongsTo` a **delivery address**. We’ve created here a BelongsTo Smart Relationship that acts like a shortcut between the **order** and the **delivery address**.
+We have an **order** which `belongsTo` a **customer** which `hasOne` **address**.   
+  
+We’ve created a Smart Relationship `(delivery address)`on the **order** table that acts like a shortcut between the **order** and the **address**.
 
 ![](../.gitbook/assets/search-smart-belongsto.gif)
 
