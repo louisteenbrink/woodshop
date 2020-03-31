@@ -1,4 +1,4 @@
-# Search on a smart field with joints
+# Search on a smart field with two joints
 
 This example shows you how to search on a smart field to display a belongsTo smart relationship.  
   
