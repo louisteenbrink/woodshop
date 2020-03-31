@@ -9,4 +9,5 @@
 * [Trigger a webhook with Zapier](how-tos/trigger-a-webhook-with-zapier.md)
 * [Display a calendar view](how-tos/calendar-view.md)
 * [Hash a password with bcrypt](how-tos/hash-a-password-with-bcrypt.md)
+* [Display a customized response](how-tos/display-a-customized-response.md)
 
