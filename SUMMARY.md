@@ -8,4 +8,5 @@
 * [Display/edit a nested document](how-tos/display-edit-a-nested-document.md)
 * [Trigger a webhook with Zapier](how-tos/trigger-a-webhook-with-zapier.md)
 * [Display a calendar view](how-tos/calendar-view.md)
+* [Hash a password with bcrypt](how-tos/hash-a-password-with-bcrypt.md)
 
