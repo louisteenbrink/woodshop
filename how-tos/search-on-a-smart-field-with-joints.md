@@ -167,3 +167,7 @@ collection('orders', {
 ```
 {% endcode %}
 
+{% hint style="info" %}
+[Displaying extensive logs](https://docs.forestadmin.com/documentation/how-tos/settings/display-extensive-logs) can be useful to see how the query is executed.
+{% endhint %}
+
