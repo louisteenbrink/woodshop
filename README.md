@@ -6,16 +6,16 @@ This place is meant to be nourished by our whole community!
 
 You have implemented a new use case on your Forest Admin?
 
-* trigger a webhook with Zapier via a smart action
-* display your properties on a map via a smart view
-* track a shipping status via a smart field
+* trigger a webhook with Zapier
+* display your properties on a map
+* track a shipping status
 * and more...
 
 Share your example to the world and **contribute to this project!**
 
 ## How to contribute
 
-This woodshop is officially maintained by Forest Admin. We're always happy to get contributions from other fellow lumberjacks. All contributions will be reviewed by Forest Admin's team before being merged into master.
+This woodshop is officially maintained by Forest Admin. We're always happy to get contributions from other fellow lumberjacks/jills. All contributions will be reviewed by Forest Admin's team before being merged into master.
 
 Here is the contribution workflow:
 
