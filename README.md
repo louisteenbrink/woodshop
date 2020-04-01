@@ -1,6 +1,6 @@
 # What is woodshop
 
-**Woodshop** provides practical examples to help you dig deeper into the various features of [Forest Admin](https://www.forestadmin.com/).
+**Woodshop** provides your a list of practical examples \(how to's\) to help you dig deeper into the various features of [Forest Admin](https://www.forestadmin.com/).
 
 This place is meant to be nourished by our whole community!
 
