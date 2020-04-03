@@ -1,6 +1,6 @@
-# Create a smart collection of Hubspot companies
+# Display Hubspot companies
 
-This example shows you how to create a smart collection listing the information of companies existing in an Hubspot account.
+This example shows you how to create a smart collection to list the companies of your Hubspot account.
 
 ![](http://recordit.co/XWq2ldn1U2.gif)
 
@@ -9,8 +9,8 @@ This example shows you how to create a smart collection listing the information 
 ## Requirements <a id="requirements"></a>
 
 * An admin backend running on forest-express-sequelize
-* the `superagent` npm package
-* an Hubspot account
+* [superagent](https://www.npmjs.com/package/superagent) npm package
+* a Hubspot account
 
 ## How it works <a id="requirements"></a>
 

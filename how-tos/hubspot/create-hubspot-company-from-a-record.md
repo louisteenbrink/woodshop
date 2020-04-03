@@ -1,8 +1,8 @@
-# Create Hubspot company from a record
+# Create a Hubspot company
 
 
 
-This example shows you how to create a smart action to create a company instance in your Hubspot account based on the information of a `companies` record from your database. 
+This example shows you how to create a Smart Action `"Create company in Hubspot"` that generates a company in Hubspot based on information from your database.
 
 ![](http://recordit.co/5j310Z59tb.gif)
 
@@ -11,8 +11,8 @@ This example shows you how to create a smart action to create a company instance
 ## Requirements <a id="requirements"></a>
 
 * An admin backend running on forest-express-sequelize
-* the `superagent` npm package
-* an Hubspot account
+* [superagent](https://www.npmjs.com/package/superagent) npm package
+* a Hubspot account
 
 ## How it works <a id="requirements"></a>
 
@@ -56,20 +56,6 @@ module.exports = (sequelize, DataTypes) => {
   });
 
   Companies.associate = (models) => {
-    Companies.hasMany(models.subscriptions, {
-      foreignKey: {
-        name: 'companyIdKey',
-        field: 'company_id',
-      },
-      as: 'subscriptions',
-    });
-    Companies.hasMany(models.users, {
-      foreignKey: {
-        name: 'companyIdKey',
-        field: 'company_id',
-      },
-      as: 'users',
-    });
   };
 
   return Companies;
