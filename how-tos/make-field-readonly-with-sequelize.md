@@ -2,6 +2,8 @@
 
 Sequelize does not allow by itself to define a field as readOnly. But you can do so by using on of Sequelize's addons named [sequelize-noupdate-attributes](https://www.npmjs.com/package/sequelize-noupdate-attributes).
 
+![the LastName field is readOnly in Sequelize but not the email field](http://g.recordit.co/FkXyBYq06o.gif)
+
 ## Requirements
 
 * An admin backend running on forest-express-sequelizet
