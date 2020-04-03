@@ -14,5 +14,6 @@
 * [Override the count route](how-tos/override-the-count-route.md)
 * [Make field readOnly with Sequelize](how-tos/make-field-readonly-with-sequelize.md)
 * [Hubspot integration](how-tos/hubspot/README.md)
+  * [Create Hubspot company from a record](how-tos/hubspot/create-hubspot-company-from-a-record.md)
   * [Create a smart collection of Hubspot companies](how-tos/hubspot/create-a-smart-collection-of-hubspot-companies.md)
 
