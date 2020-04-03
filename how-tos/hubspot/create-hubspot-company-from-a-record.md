@@ -142,7 +142,7 @@ function setCrmId(record, hubspotId) {
 }
 
 // function that creates a company in Hubspot through the hubspot API
-async function createHubspotCompany(company) {
+function createHubspotCompany(company) {
   return superagent
     .post(`https://api.hubapi.com/companies/v2/companies?hapikey=${process.env.HUBSPOT_API}`)
     .send({properties: [
