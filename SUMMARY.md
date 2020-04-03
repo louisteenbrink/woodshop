@@ -11,4 +11,5 @@
 * [Hash a password with bcrypt](how-tos/hash-a-password-with-bcrypt.md)
 * [Display a customized response](how-tos/display-a-customized-response.md)
 * [Search on a smart field with two joints](how-tos/search-on-a-smart-field-with-joints.md)
+* [Override the count route](how-tos/override-the-count-route.md)
 
