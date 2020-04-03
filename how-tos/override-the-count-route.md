@@ -4,6 +4,8 @@ This example shows you how to override the count default route.
   
 Forest Admin comes packaged with a set of existing routes, which execute Forest Admin's default logic. At installation, they are generated in `/routes`**.** 
 
+![](../.gitbook/assets/override-count.png)
+
 ## Requirements
 
 * An admin backend running on forest-express-sequelize
