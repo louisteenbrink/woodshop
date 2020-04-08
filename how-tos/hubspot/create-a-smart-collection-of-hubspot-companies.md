@@ -14,7 +14,7 @@ This example shows you how to create a smart collection to list the companies of
 
 ## How it works <a id="requirements"></a>
 
-### Directory: `/forest`
+### Directory: /forest
 
 This directory contains the `hubspot-companies.js` file where the collection is declared.
 
@@ -41,7 +41,7 @@ Liana.collection('hubspot_companies', {
 ```
 {% endcode %}
 
-### Directory: `/routes`
+### Directory: /routes
 
 This directory contains the `hubspot-companies.js` file where the serializer for the collection and logic to get records is defined. 
 

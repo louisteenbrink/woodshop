@@ -11,7 +11,7 @@ Sequelize does not allow by itself to define a field as readOnly. But you can do
 
 ## How it works
 
-### Directory: `/models`
+### Directory: /models
 
 This directory contains the files where your models are defined with Sequelize. To make fields readOnly you need to require the `sequelize-noupdate-attributes` package and add the `noUpdate` option to the relevant fields.
 

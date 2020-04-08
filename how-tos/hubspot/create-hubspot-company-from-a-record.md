@@ -16,7 +16,7 @@ This example shows you how to create a Smart Action `"Create company in Hubspot"
 
 ## How it works <a id="requirements"></a>
 
-### Directory: `/models`
+### Directory: /models
 
 This directory contains the `companies.js` file where the collection is declared.
 
@@ -64,7 +64,7 @@ module.exports = (sequelize, DataTypes) => {
 ```
 {% endcode %}
 
-### Directory: `/forest`
+### Directory: /forest
 
 This directory contains the `companies.js` file where the smart action is declared. A smart field has also been added to add a link to the company's Hubspot profile if the company's `crmId` field is not `null`.
 
@@ -96,7 +96,7 @@ collection('companies', {
 ```
 {% endcode %}
 
-### Directory: `/routes`
+### Directory: /routes
 
 This directory contains the `companies.js` file where the smart action logic is implemented. 
 

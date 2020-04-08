@@ -12,7 +12,7 @@ Forest Admin comes packaged with a set of existing routes, which execute Forest 
 
 ## How it works
 
-### Directory: `/routes`
+### Directory: /routes
 
 This directory contains the `users.js` files where the routes are declared.
 

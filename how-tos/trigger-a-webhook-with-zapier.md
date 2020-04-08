@@ -12,7 +12,7 @@ This example shows you how to create a Smart Action `"Send SMS"` that triggers a
 
 ## How it works
 
-### Directory: `/models`
+### Directory: /models
 
 This directory contains the `users.js` file where the model is declared.
 
@@ -41,7 +41,7 @@ module.exports = (sequelize, DataTypes) => {
 ```
 {% endcode %}
 
-### **Directory: `/forest`**
+### **Directory: /forest**
 
 This directory contains the `users.js` file where the Smart Action `Send SMS`is declared.
 
@@ -58,7 +58,7 @@ collection('users', {
 ```
 {% endcode %}
 
-### **Directory: `/routes`**
+### **Directory: /routes**
 
 This directory contains the `users.js` file where the implementation of the route is handled. The `POST /forest/actions/send-sms` API call is triggered when you click on the Smart Action in the Forest UI. The route implementation retrieves all the necessary data and triggers another API call directly to a [Zapier hook](https://zapier.com/zapbook/webhook/).
 

@@ -16,4 +16,6 @@
 * [Hubspot integration](how-tos/hubspot/README.md)
   * [Create a Hubspot company](how-tos/hubspot/create-hubspot-company-from-a-record.md)
   * [Display Hubspot companies](how-tos/hubspot/create-a-smart-collection-of-hubspot-companies.md)
+* [Impersonate a user](how-tos/impersonate-a-user.md)
+* [Import data from a CSV file](how-tos/import-data-from-a-csv-file.md)
 

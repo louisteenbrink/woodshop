@@ -57,7 +57,7 @@ collection('companies', {
 });
 ```
 
-### **Directory: `/routes`**
+### **Directory: /routes**
 
 This directory contains the `companies.js` file where the implementation of the route is handled. The `POST /forest/actions/mark-as-live` API call is triggered when you click on the Smart Action in the Forest UI. 
 
