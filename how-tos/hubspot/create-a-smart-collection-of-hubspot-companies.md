@@ -97,7 +97,7 @@ function searchHubspotCompanies(companies, search) {
 
 router.get('/hubspot_companies', Liana.ensureAuthenticated, async (req, res, next) => {
   // set pagination parameters when exist (default limit is 250 as it is the max allowed by Hubspot)
-  let limit = 250;
+  let limit = 20;
   let offset = 0;
   req.query.page ? limit = parseInt(req.query.page.size) : limit;
   req.query.page ? offset = (parseInt(req.query.page.number) - 1) * limit : offset;
