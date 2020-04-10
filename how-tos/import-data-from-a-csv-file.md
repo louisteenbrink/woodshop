@@ -252,3 +252,12 @@ module.exports = router;
 {% endtab %}
 {% endtabs %}
 
+{% hint style="warning" %}
+For large file uploads, you should add an option in your Express Server in your **app.js** file:
+{% endhint %}
+
+```javascript
+app.use(bodyParser.urlencoded({ extended: true ,limit: '50mb' }));
+app.use(bodyParser.json({ limit: '50mb' }));
+```
+
