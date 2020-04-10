@@ -20,4 +20,5 @@
 * [Import data from a CSV file](how-tos/import-data-from-a-csv-file.md)
 * [Load smart fields using hook](how-tos/load-smart-fields-using-sequelizes-afterfind-hook.md)
 * [Pre-fill a form with data from a relationship](how-tos/pre-fill-smart-action-form-with-data-coming-from-a-relationship.md)
+* [Re-use a smart field logic](how-tos/re-use-a-smart-field-logic.md)
 
