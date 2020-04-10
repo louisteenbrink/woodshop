@@ -1,8 +1,8 @@
 # Re-use a smart field logic
 
-This example shows you how to re-use the logic of your smart field using [module.exports](https://nodejs.org/api/modules.html#modules_module_exports).
+This example shows you how to re-use the logic of your smart field.
 
-Here, we created a `fullname` field that concatenates first and last name. We'll create our own module and export it for use elsewhere in our admin backend.
+Here, we created a `fullname` field that concatenates first and last name. We'll create our own function and export it for use elsewhere in our admin backend.
 
 ![](../.gitbook/assets/smart-field.png)
 
@@ -14,7 +14,7 @@ Here, we created a `fullname` field that concatenates first and last name. We'll
 
 ### Directory: /models
 
-This directory contains the `users.js` where the models is defined. 
+This directory contains the `users.js` where the model is defined. 
 
 {% code title="/models/users.js" %}
 ```javascript
@@ -48,7 +48,7 @@ const { collection } = require('forest-express-sequelize');
 
 // create our own module
 const getFullname = (user) => {
-  return user.firstName + ' ' + user.lastName;
+  return `${user.firstName} ${user.lastName}`;
 };
 
 
@@ -67,10 +67,10 @@ module.exports = {
 ```
 
 {% hint style="info" %}
-You can now require this module everywhere in your admin backend.
+You can now require this module everywhere in your admin backend:
 
 ```text
-const { getMySmartField } = require('../forest/user');
+const { getFullname } = require('../forest/user');
 ```
 {% endhint %}
 
