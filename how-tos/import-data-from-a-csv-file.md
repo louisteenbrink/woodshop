@@ -2,7 +2,7 @@
 
 This example shows you how to create a Smart Action `"Import data"` to import data from a CSV file.
 
-Forest Admin atively supports data creation but it’s sometimes more efficient to simply import it.
+Forest Admin natively supports data creation but it’s sometimes more efficient to simply import it.
 
 ![](../.gitbook/assets/import-data.png)
 

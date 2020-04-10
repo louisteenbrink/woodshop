@@ -1,4 +1,4 @@
-# Make field readOnly with Sequelize
+# Make a field readOnly with Sequelize
 
 Sequelize does not allow by itself to define a field as readOnly. But you can do so by using on of Sequelize's addons named [sequelize-noupdate-attributes](https://www.npmjs.com/package/sequelize-noupdate-attributes).
 
@@ -6,7 +6,7 @@ Sequelize does not allow by itself to define a field as readOnly. But you can do
 
 ## Requirements
 
-* An admin backend running on forest-express-sequelizet
+* An admin backend running on forest-express-sequelize
 * [sequelize-noupdate-attributes](https://www.npmjs.com/package/sequelize-noupdate-attributes) npm package
 
 ## How it works
