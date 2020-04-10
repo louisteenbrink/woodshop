@@ -81,7 +81,7 @@ async function getAllHubspotCompanies() {
   let hasMore = true;
   let offset = '';
   while (hasMore) {
-    let getCompaniesResponse = await getHubspotCompaniesList(5, offset);
+    let getCompaniesResponse = await getHubspotCompaniesList(250, offset);
     allHubspotCompanies = allHubspotCompanies.concat(getCompaniesResponse.companies);
     offset = getCompaniesResponse.offset;
     hasMore = getCompaniesResponse['has-more'];
