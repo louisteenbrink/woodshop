@@ -92,6 +92,7 @@ template.hbs
     overflow: hidden;
     position: relative;
   }
+
   .c-gallery {
     padding: 15px;
     overflow-y: auto;
@@ -100,10 +101,11 @@ template.hbs
     left: 0;
     top: 0;
     bottom: 40px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
+
   .c-gallery__image {
     height: 197px;
     width: 138px;
@@ -112,6 +114,7 @@ template.hbs
     border-radius: 2px;
     transition: all .3s ease-out;
   }
+
   .c-gallery__image:hover {
     transform: scale(1.05);
   }
@@ -133,42 +136,44 @@ template.hbs
   }
 </style>
 
-<section class="c-gallery">
-{{#each @records as |record|}}
-  <div class="l-gallery-book-container">
-    <!-- redirect to book detail view -->
-    <LinkTo
-      @route="rendering.data.collection.list.viewEdit.details"
-      @models={{array @collection.id record.id}}
-      class="c-gallery__image-container"
-    >
-      <img class="c-gallery__image" src={{record.forest-attributes.picture}}>
-    </LinkTo>
-
-    <!-- redirect to author detail view -->
-    <BetaLinkTo
-      @type="primary"
-      @size="normal"
-      @underline={{false}}
-      @text={{record.forest-author.forest-name}}
-      @routeName="rendering.data.collection.list.viewEdit.details"
-      @routeParameters={{array this.authorCollectionId record.forest-author.id}}
-      @class="c-gallery__author"
-    />
-  </div>
-{{/each}}
-</section>
-
-<Table::TableFooter
-  @collection={{@collection}}
-  @viewList={{@viewList}}
-  @records={{@records}}
-  @currentPage={{@currentPage}}
-  @numberOfPages={{@numberOfPages}}
-  @recordsCount={{@recordsCount}}
-  @isLoading={{@isLoading}}
-  @fetchRecords={{@fetchRecords}}
-/>
+<div class="l-gallery-view-container">
+  <section class="c-gallery">
+    {{#each @records as |record|}}
+      <div class="l-gallery-book-container">
+        <!-- redirect to book detail view -->
+        <LinkTo
+          @route="rendering.data.collection.list.viewEdit.details"
+          @models={{array @collection.id record.id}}
+          class="c-gallery__image-container"
+        >
+          <img class="c-gallery__image" src={{record.forest-attributes.picture}}>
+        </LinkTo>
+        
+        <!-- redirect to author detail view -->
+        <BetaLinkTo
+          @type="primary"
+          @size="normal"
+          @underline={{false}}
+          @text={{record.forest-author.forest-name}}
+          @routeName="rendering.data.collection.list.viewEdit.details"
+          @routeParameters={{array this.authorCollectionId record.forest-author.id}}
+          @class="c-gallery__author"
+        />
+      </div>
+    {{/each}}
+  </section>
+  
+  <Table::TableFooter
+    @collection={{@collection}}
+    @viewList={{@viewList}}
+    @records={{@records}}
+    @currentPage={{@currentPage}}
+    @numberOfPages={{@numberOfPages}}
+    @recordsCount={{@recordsCount}}
+    @isLoading={{@isLoading}}
+    @fetchRecords={{@fetchRecords}}
+  />
+</div>
 ```
 
 ### File: javascript.js
@@ -179,13 +184,15 @@ This file handle all events or actions
 component.js
 
 import Component from '@ember/component';
-import SmartViewMixin from 'client/mixins/smart-view-mixin';
 import { computed } from '@ember/object';
+import SmartViewMixin from 'client/mixins/smart-view-mixin';
+​
 export default Component.extend(SmartViewMixin, {
+  tagName: '',
+
   authorCollectionId: computed(function () {
     return this.getCollectionId('authors');
   }),
-  classNames: ['l-gallery-view-container']
 });
 ```
 
