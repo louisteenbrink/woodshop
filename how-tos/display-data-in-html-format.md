@@ -10,8 +10,6 @@ Here a **Movie** `hasOne` **movieCharacteristic**.
   
 On the `movies` collection, we want to implement a smart field \(called `characteristics`\) that will display all the characteristics of a movie.
 
-
-
 ## Requirements
 
 * An admin backend running on forest-express-sequelize
