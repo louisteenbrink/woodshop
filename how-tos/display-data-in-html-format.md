@@ -160,9 +160,9 @@ collection('movies', {
 ```
 {% endcode %}
 
-## In the Forest Admin UI
-
+{% hint style="warning" %}
 You will need to select the [rich text editor widget](https://docs.forestadmin.com/documentation/reference-guide/fields/customize-your-fields/edit-widgets#rich-text-editor) for this field in your collection settings to display the string returned by the smart field in html format.
+{% endhint %}
 
 ![](http://g.recordit.co/nCHqAbWQRo.gif)
 
