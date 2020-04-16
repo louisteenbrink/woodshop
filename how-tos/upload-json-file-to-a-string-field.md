@@ -2,7 +2,7 @@
 
 This example shows you how to implement a smart action to upload a JSON file.  
   
-Here an `activities` model has a `details` field of the type `Jsonb`. This field should contain information from a JSON file. 
+Here an `activities` model has a `details` field of the type `JSON`. This field should contain information from a JSON file. 
 
 ![](http://g.recordit.co/IixzA100Gk.gif)
 
@@ -26,7 +26,7 @@ module.exports = (sequelize, DataTypes) => {
 
   const Activities = sequelize.define('activities', {
     details: {
-      type: DataTypes.STRING,
+      type: DataTypes.JSONB,
     },
     startDate: {
       type: DataTypes.DATE,
