@@ -134,41 +134,41 @@ template.hbs
 </style>
 
 <section class="c-gallery">
-  {{#each @records as |record|}}
-    <div class="l-gallery-book-container">
-      <!-- redirect to book detail view -->
-      <LinkTo
-        @route="rendering.data.collection.list.viewEdit.details"
-        @models={{array @collection.id record.id}}
-        class='c-gallery__image-container'
-      >
-        <img class="c-gallery__image" src={{record.forest-attributes.picture}}>
-      </LinkTo>
+{{#each @records as |record|}}
+  <div class="l-gallery-book-container">
+    <!-- redirect to book detail view -->
+    <LinkTo
+      @route="rendering.data.collection.list.viewEdit.details"
+      @models={{array @collection.id record.id}}
+      class="c-gallery__image-container"
+    >
+      <img class="c-gallery__image" src={{record.forest-attributes.picture}}>
+    </LinkTo>
 
-      <!-- redirect to author detail view -->
-      <BetaLinkTo
-        @type="primary"
-        @size="normal"
-        @underline={{false}}
-        @text={{record.forest-author.forest-name}}
-        @routeName="rendering.data.collection.list.viewEdit.details"
-        @routeParameters={{array this.authorCollectionId record.forest-author.id}}
-        @class="c-gallery__author"
-      />
-    </div>
-  {{/each}}
+    <!-- redirect to author detail view -->
+    <BetaLinkTo
+      @type="primary"
+      @size="normal"
+      @underline={{false}}
+      @text={{record.forest-author.forest-name}}
+      @routeName="rendering.data.collection.list.viewEdit.details"
+      @routeParameters={{array this.authorCollectionId record.forest-author.id}}
+      @class="c-gallery__author"
+    />
+  </div>
+{{/each}}
 </section>
 
-{{table/table-footer
-  collection=@collection
-  viewList=@viewList
-  records=@records
-  currentPage=@currentPage
-  numberOfPages=@numberOfPages
-  recordsCount=@recordsCount
-  isLoading=@isLoading
-  fetchRecords=@fetchRecords
-}}
+<Table::TableFooter
+  @collection={{@collection}}
+  @viewList={{@viewList}}
+  @records={{@records}}
+  @currentPage={{@currentPage}}
+  @numberOfPages={{@numberOfPages}}
+  @recordsCount={{@recordsCount}}
+  @isLoading={{@isLoading}}
+  @fetchRecords={{@fetchRecords}}
+/>
 ```
 
 ### File: javascript.js
