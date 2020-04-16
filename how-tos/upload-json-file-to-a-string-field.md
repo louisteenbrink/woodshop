@@ -1,8 +1,8 @@
 # Import data from a JSON file
 
-This example shows you how to implement a smart action to upload a JSON file to a string field using the file picker widget available in the Forest Admin UI.  
+This example shows you how to implement a smart action to upload a JSON file.  
   
-Here an `activities` model has a `details` field of the type `string`. This field should contain information from a JSON file. 
+Here an `activities` model has a `details` field of the type `Jsonb`. This field should contain information from a JSON file. 
 
 ![](http://g.recordit.co/IixzA100Gk.gif)
 
