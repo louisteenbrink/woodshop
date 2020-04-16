@@ -18,8 +18,10 @@
   * [Display Hubspot companies](how-tos/hubspot/create-a-smart-collection-of-hubspot-companies.md)
 * [Impersonate a user](how-tos/impersonate-a-user.md)
 * [Import data from a CSV file](how-tos/import-data-from-a-csv-file.md)
+* [Import data from a JSON file](how-tos/upload-json-file-to-a-string-field.md)
 * [Load smart fields using hook](how-tos/load-smart-fields-using-sequelizes-afterfind-hook.md)
 * [Pre-fill a form with data from a relationship](how-tos/pre-fill-smart-action-form-with-data-coming-from-a-relationship.md)
 * [Re-use a smart field logic](how-tos/re-use-a-smart-field-logic.md)
 * [Link to record info in a smart view](how-tos/link-to-record-detail-in-a-gallery-view.md)
+* [Display data in html format](how-tos/display-data-in-html-format.md)
 
