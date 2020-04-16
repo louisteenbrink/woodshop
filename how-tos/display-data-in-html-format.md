@@ -1,6 +1,6 @@
 # Display data in html format
 
-This example shows you how to implement a smart field that will return data formatted in html and display it.
+This example shows you how to implement a smart field that displays HTML.
 
 ![](../.gitbook/assets/screenshot-2020-04-14-at-17.59.01.png)
 
