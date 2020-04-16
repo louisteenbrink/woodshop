@@ -20,7 +20,7 @@ To do so, a smart action called `update-movie-characteristics`is defined with in
 
 ### Directory: /models
 
-This directory contains the `movies.js` and `movie-characteristics.js` files where the models **movies** and **movieCharacteristics** are defined. 
+This directory contains the `movies.js` and `movie-characteristics.js` files where the models are defined. 
 
 {% tabs %}
 {% tab title="movies.js" %}
