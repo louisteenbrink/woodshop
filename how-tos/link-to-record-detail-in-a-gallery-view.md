@@ -1,9 +1,9 @@
 # Link to record info in a smart view
 
-This example shows you how to link to:
+This example shows you how to redirect to:
 
 * the detail view of a record
-* the belongsTo detail view of a record
+* the detail view of the associated record
 
 in a smart view.
 
