@@ -98,15 +98,16 @@ router.post('/actions/upload-json', (req, res) => {
   // get string from base64 string => if your field is a string and you want to insert the JSON in it, this is the value you want to return
   const stringFile = Buffer.from(rawFileCleaned, 'base64').toString('utf8');
   // check that you can properly parse json from the string obtained
+  let jsonFile
   try {
-    JSON.parse(stringFile);
+    jsonFile = JSON.parse(stringFile);
   } catch (error) {
     return res.status(400).send({ error: 'not a correctly formatted json file' });
   }
   // find and update the current record's details field with the json file as a string
   activities
     .update(
-      { details: stringFile },
+      { details: jsonFile },
       { where: { id: activityId } },
     )
     .then(() => {
