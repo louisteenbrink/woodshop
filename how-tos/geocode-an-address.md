@@ -56,7 +56,9 @@ This smart field will be used to update the value of the `address`and `locationG
 const { collection } = require('forest-express-mongoose');
 
 const algoliasearch = require('algoliasearch');
+
 const places = algoliasearch.initPlaces(process.env.PLACES_APP_ID, process.env.PLACES_API_KEY);
+
 async function getLocationCoordinates(query) {
   try {
     const location = await places.search({ query, type: 'address' });
