@@ -53,8 +53,6 @@ This smart field will be used to update the value of the `address`and `locationG
 
 {% code title="/forest/events.js" %}
 ```javascript
-const { collection } = require('forest-express-mongoose');
-
 const algoliasearch = require('algoliasearch');
 
 const places = algoliasearch.initPlaces(process.env.PLACES_APP_ID, process.env.PLACES_API_KEY);
@@ -66,30 +64,27 @@ async function getLocationCoordinates(query) {
     return location.hits[0]._geoloc;
   } catch (err) {
     console.log(err);
-    console.log(err.debugData);
     return null;
   }
 }
+
 async function setEvent(event, query) {
   const coordinates = await getLocationCoordinates(query);
   event.address = query;
-  console.log('new address', event.address);
   event.locationGeo = `{"type": "Point", "coordinates": [${coordinates.lat}, ${coordinates.lng}]}`;
+  console.log('new address', event.address);
   console.log('new location', event.locationGeo);
   return event;
 }
+
 collection('events', {
   fields: [{
     field: 'Location setter',
     type: 'String',
     // Get the data to be displayed.
-    get: (event) => {
-      return event.address;
-    },
+    get: (event) => event.address,
     // Update using Algolia.
-    set: (event, query) => {
-      return setEvent(event, query);
-    },
+    set: (event, query) => setEvent(event, query),
   }],
 });
 ```
