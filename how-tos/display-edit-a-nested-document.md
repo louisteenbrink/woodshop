@@ -46,16 +46,16 @@ collection('users', {
   fields: [{
     field: 'firstname',
     type: 'String',
-    // display the firstname
+    // Display the firstname
     get: (user) => {
       return user.person.firstname;
     },
-    // edit the firstname
+    // Edit the firstname
     set: ((user, value) => {
-      if(!user.person) {
+      if (!user.person) {
         user.person = {};
       }
-      user.person.firstname = value
+      user.person.firstname = value;
     })
   }],
 });
