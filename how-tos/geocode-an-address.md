@@ -19,11 +19,10 @@ This directory contains the `events.js` file where the model is declared.
 {% code title="models/events.js" %}
 ```javascript
 module.exports = (sequelize, DataTypes) => {
-  const { Sequelize } = sequelize;
   const Model = sequelize.define('events', {
     name: {
       type: DataTypes.STRING,
-      primaryKey: true
+      primaryKey: true,
     },
     locationGeo: {
       type: DataTypes.GEOMETRY('POINT', 4326),
@@ -37,16 +36,12 @@ module.exports = (sequelize, DataTypes) => {
     timestamps: false,
     schema: process.env.DATABASE_SCHEMA,
   });
-
+  
   Model.removeAttribute('id');
-
-  Model.associate = (models) => {
-  };
-
+  Model.associate = () => {};
+  
   return Model;
 };
-
-
 ```
 {% endcode %}
 
@@ -62,39 +57,37 @@ const { collection } = require('forest-express-mongoose');
 
 const algoliasearch = require('algoliasearch');
 const places = algoliasearch.initPlaces(process.env.PLACES_APP_ID, process.env.PLACES_API_KEY);
-
+async function getLocationCoordinates(query) {
+  try {
+    const location = await places.search({ query, type: 'address' });
+    console.log('search location coordinates result', location.hits[0]._geoloc);
+    return location.hits[0]._geoloc;
+  } catch (err) {
+    console.log(err);
+    console.log(err.debugData);
+    return null;
+  }
+}
+async function setEvent(event, query) {
+  const coordinates = await getLocationCoordinates(query);
+  event.address = query;
+  console.log('new address', event.address);
+  event.locationGeo = `{"type": "Point", "coordinates": [${coordinates.lat}, ${coordinates.lng}]}`;
+  console.log('new location', event.locationGeo);
+  return event;
+}
 collection('events', {
   fields: [{
     field: 'Location setter',
     type: 'String',
-    // get the data to be displayed
+    // Get the data to be displayed.
     get: (event) => {
-      return event.address
+      return event.address;
     },
-    // update using Algolia
+    // Update using Algolia.
     set: (event, query) => {
-      async function getLocationCoordinates(query){
-          try {
-            const location = await places.search({query: query, type:'address'});
-            console.log('search location coordinates result', location.hits[0]._geoloc);
-            return location.hits[0]._geoloc
-          } catch (err) {
-            console.log(err);
-            console.log(err.debugData);
-          }
-      }
-
-      async function setEvent(event, query) {
-        const coordinates = await getLocationCoordinates(query)
-        event.address = query
-        console.log('new address', event.address)
-        event.locationGeo = `{"type": "Point", "coordinates": [${coordinates.lat}, ${coordinates.lng}]}`
-        console.log('new location', event.locationGeo)
-        return event
-      }
-
-      return setEvent(event, query)
-    }
+      return setEvent(event, query);
+    },
   }],
 });
 ```
