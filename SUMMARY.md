@@ -24,4 +24,5 @@
 * [Re-use a smart field logic](how-tos/re-use-a-smart-field-logic.md)
 * [Link to record info in a smart view](how-tos/link-to-record-detail-in-a-gallery-view.md)
 * [Display data in html format](how-tos/display-data-in-html-format.md)
+* [Upload files to AWS S3](how-tos/upload-files-to-s3.md)
 
