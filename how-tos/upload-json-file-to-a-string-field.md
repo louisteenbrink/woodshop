@@ -89,38 +89,41 @@ const { activities } = require('../models');
 
 const router = express.Router();
 
-router.post('/actions/upload-json', (req, res) => {
-  const activityId = req.body.data.attributes.ids[0];
+router.post('/actions/upload-json', (request, response) => {
+  const [activityId] = new RecordsGetter(activities).getIdsFromRequest(request);
   // Get the raw base64 file => if your field is a string and you want to insert the JSON as a base64 to use the file viewer, this is the value you want to save in the database
   const rawFile = req.body.data.attributes.values.json;
   // Trim the base64 string to delete the prefix
   const rawFileCleaned = rawFile.replace('data:application/json;base64', '');
-  // Get string from base64 string => if your field is a string and you want to insert the JSON in it, this is the value you want to return
+  // Get json as string from base64 string
   const stringFile = Buffer.from(rawFileCleaned, 'base64').toString('utf8');
   // Check that you can properly parse json from the string obtained
+
   let jsonFile
   try {
     jsonFile = JSON.parse(stringFile);
   } catch (error) {
     return res.status(400).send({ error: 'not a correctly formatted json file' });
   }
+
   // Find and update the current record's details field with the json file as a string
-  activities
-    .update(
-      { details: jsonFile },
-      { where: { id: activityId } },
-    )
+  return activities.update({
+    details: jsonFile
+  },{
+    where: {
+      id: activityId,
+    },
+  })
     .then(() => {
       return res.send({ success: 'record updated!' });
     })
     .catch((e) => {
-      console.log(e);
+      console.error(e);
       return res.status(400).send({ error: 'could not update file' });
     });
 });
 
 module.exports = router;
-
 ```
 {% endcode %}
 
