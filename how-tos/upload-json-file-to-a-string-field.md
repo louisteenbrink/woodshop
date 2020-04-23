@@ -50,7 +50,7 @@ module.exports = (sequelize, DataTypes) => {
 
 ### Directory: /forest
 
-This directory contains the `activities.js` file where the smart action `upload JSON` is declared. 
+This directory contains the `activities.js` file where the smart action `Upload JSON` is declared. 
 
 {% hint style="info" %}
 You need to specify that the widget `file picker` is applicable to the input field used to upload the file.
