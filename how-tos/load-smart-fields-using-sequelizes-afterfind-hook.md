@@ -9,7 +9,7 @@ Here a **Program** `hasMany` **Activities**.
 We want to display two smart fields:  
 
 * `"hasActivity"`, that will return whether the program has any related activities in the database.
-* `"length"`, that will return the length of the program in weeks.
+* `"duration"`, that will return the length of the program in weeks.
 
 ![](../.gitbook/assets/screenshot-2020-04-09-at-15.53.47.png)
 
@@ -28,6 +28,12 @@ As Sequelize hooks are declared upon the model definition, the afterFind hook is
 {% tabs %}
 {% tab title="programs.js" %}
 ```javascript
+function calculateNumberOfWeek({ startDate, finishDate }) {
+  const diff = startDate - finishDate;
+  const diffInWeeks = (diff / (1000 * 60 * 60 * 24 * 7));
+  return Math.abs(Math.round(diffInWeeks));
+}
+
 module.exports = (sequelize, DataTypes) => {
   const { Sequelize } = sequelize;
    const Programs = sequelize.define('programs', {
@@ -46,63 +52,31 @@ module.exports = (sequelize, DataTypes) => {
     timestamps: false,
     schema: process.env.DATABASE_SCHEMA,
     hooks: {
-      afterFind: async (records) => {
+      afterFind: async (programs) => {
         // Check if several records have been fetched or a single one
-        const isFindOne = !records.length;
-        const limit = isFindOne ? 1 : records.length;
-        if (isFindOne) { records = [records]; }
-        const recordsIds = records.map((record) => record.id);
+        const isFindOne = !programs.length;
+        if (isFindOne) { programs = [programs]; }
+        const recordsIds = programs.map(record => record.id);
         const activities = await sequelize.models.activities.findAll({
           where: { programIdKey: recordsIds },
         });
-        function calculateLength(program) {
-          const diff = program.startDate - program.finishDate;
-          const diffInWeeks = (diff / (1000 * 60 * 60 * 24 * 7));
-          return Math.abs(Math.round(diffInWeeks));
-        }
-        for (let i = 0; i < limit; i++) {
-          let record = records[i];
-          record.length = calculateLength(record);
-          let recordActivities = []
-          for (let j = 0; j < activities.length; j++) {
-            if (activities[j].programIdKey === record.id) {
-              recordActivities.push(activities[j]);
-            }
-          }
-          record.hasActivity = recordActivities.length > 0;
-        }
-        return isFindOne ? records[0] : records;
+
+        programs.forEach((program) => {
+          program.duration = calculateNumberOfWeek(program);
+          program.hasActivity = activities.some(activity => activity.programIdKey === program.id);
+        });
+
+        return isFindOne ? programs[0] : programs;
       },
     },
   });
-
-  Programs.associate = (models) => {
-    Programs.belongsTo(models.users, {
-      foreignKey: {
-        name: 'userIdKey',
-        field: 'user_id',
-      },
-      as: 'user',
-    });
-    Programs.hasMany(models.activities, {
-      foreignKey: {
-        name: 'programIdKey',
-        field: 'program_id',
-      },
-      as: 'activities',
-    });
-  };
-
-  return Programs;
-};
-
 ```
 {% endtab %}
 {% endtabs %}
 
 ### Directory: /forest
 
-This directory contains the `programs.js` file where the smart fields `length` and `hasActivity` are declared. 
+This directory contains the `programs.js` file where the smart fields `duration` and `hasActivity` are declared. 
 
 {% hint style="info" %}
 As the logic to retrieve the field value is defined in the hook, you do not need to define the get method for each smart field.
@@ -116,7 +90,7 @@ collection('programs', {
   actions: [],
   fields: [
     {
-      field: 'length',
+      field: 'duration',
       type: 'Number',
     }, {
       field: 'hasActivity',
