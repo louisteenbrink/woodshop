@@ -11,7 +11,7 @@ We want to display two smart fields:
 * `"hasActivity"`, that will return whether the program has any related activities in the database.
 * `"duration"`, that will return the length of the program in weeks.
 
-![](../.gitbook/assets/screenshot-2020-04-09-at-15.53.47.png)
+![](../.gitbook/assets/load-smart-fields-hooks.png)
 
 ## Requirements
 
