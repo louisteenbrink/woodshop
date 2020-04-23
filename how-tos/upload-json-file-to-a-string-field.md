@@ -50,7 +50,7 @@ module.exports = (sequelize, DataTypes) => {
 
 ### Directory: /forest
 
-This directory contains the `activities.js` file where the smart action `upload-JSON` is declared. 
+This directory contains the `activities.js` file where the smart action `upload JSON` is declared. 
 
 {% hint style="info" %}
 You need to specify that the widget `file picker` is applicable to the input field used to upload the file.
@@ -91,20 +91,20 @@ const router = express.Router();
 
 router.post('/actions/upload-json', (req, res) => {
   const activityId = req.body.data.attributes.ids[0];
-  // get the raw base64 file => if your field is a string and you want to insert the JSON as a base64 to use the file viewer, this is the value you want to return
+  // Get the raw base64 file => if your field is a string and you want to insert the JSON as a base64 to use the file viewer, this is the value you want to save in the database
   const rawFile = req.body.data.attributes.values.json;
-  // trim the base64 string to delete the prefix
+  // Trim the base64 string to delete the prefix
   const rawFileCleaned = rawFile.replace('data:application/json;base64', '');
-  // get string from base64 string => if your field is a string and you want to insert the JSON in it, this is the value you want to return
+  // Get string from base64 string => if your field is a string and you want to insert the JSON in it, this is the value you want to return
   const stringFile = Buffer.from(rawFileCleaned, 'base64').toString('utf8');
-  // check that you can properly parse json from the string obtained
+  // Check that you can properly parse json from the string obtained
   let jsonFile
   try {
     jsonFile = JSON.parse(stringFile);
   } catch (error) {
     return res.status(400).send({ error: 'not a correctly formatted json file' });
   }
-  // find and update the current record's details field with the json file as a string
+  // Find and update the current record's details field with the json file as a string
   activities
     .update(
       { details: jsonFile },
