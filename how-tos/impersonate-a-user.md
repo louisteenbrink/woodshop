@@ -29,7 +29,7 @@ module.exports = (sequelize, DataTypes) => {
     createdAt: {
       type: DataTypes.DATE,
     },
-    ...
+    //...
   }, {
     tableName: 'users',
     timestamps: false,

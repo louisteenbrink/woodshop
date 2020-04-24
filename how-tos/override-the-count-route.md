@@ -20,13 +20,13 @@ To override the count route, simply remove the `next()` statement and add your o
 
 {% code title="/routes/users.js" %}
 ```javascript
-...
+//...
 
 router.get('/users/count', permissionMiddlewareCreator.list(), (request, response, next) => {
   response.send({ count: 100000000 });
 });
 
-...
+//...
 ```
 {% endcode %}
 

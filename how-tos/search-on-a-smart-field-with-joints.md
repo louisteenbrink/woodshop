@@ -24,7 +24,7 @@ This directory contains the `orders.js` , `customers.js` and `addresses.js` file
 module.exports = (sequelize, DataTypes) => {
   const { Sequelize } = sequelize;
   const Orders = sequelize.define('orders', {
-    ...
+    //...
   }, {
     tableName: 'orders',
     underscored: true,

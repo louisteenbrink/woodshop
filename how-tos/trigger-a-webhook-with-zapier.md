@@ -65,7 +65,7 @@ This directory contains the `users.js` file where the implementation of the rout
 {% code title="/routes/users.js" %}
 ```javascript
 const fetch = require('node-fetch');
-...
+//...
 
 // Send SMS
 router.post('/actions/send-sms', (request, response) => {
@@ -87,7 +87,7 @@ router.post('/actions/send-sms', (request, response) => {
     });
 });
 
-...
+//...
 
 module.exports = router;
 ```
