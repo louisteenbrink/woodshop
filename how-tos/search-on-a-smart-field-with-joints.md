@@ -160,7 +160,7 @@ collection('orders', {
         }],
       });
       query.where[Op.and][0][Op.or]
-        .push(models.sequelize.literal(`"customer->addresses".address_line_1 ILIKE '%${search}%'`));
+        .push(models.sequelize.literal(`"customer->addresses"."address_line_1" ILIKE '%${search}%'`));
     }
   }],
 });
