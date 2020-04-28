@@ -37,7 +37,6 @@ Liana.collection('hubspot_companies', {
     },
   ],
 });
-
 ```
 {% endcode %}
 
@@ -55,6 +54,7 @@ The Hubspot API key is defined in the `.env` file and requested through the expr
 ```javascript
 const Liana = require('forest-express-sequelize');
 const express = require('express');
+const superagent = require('superagent');
 
 const router = express.Router();
 
@@ -97,17 +97,14 @@ function searchHubspotCompanies(companies, search) {
 
 router.get('/hubspot_companies', Liana.ensureAuthenticated, async (req, res, next) => {
   // set pagination parameters when exist (default limit is 250 as it is the max allowed by Hubspot)
-  let limit = 20;
-  let offset = 0;
-  req.query.page ? limit = parseInt(req.query.page.size) : limit;
-  req.query.page ? offset = (parseInt(req.query.page.number) - 1) * limit : offset;
+  let limit = req.query.page ? parseInt(req.query.page.size) : 20;
+  let offset = req.query.page ? (parseInt(req.query.page.number) - 1) * limit : 0;
 
   // set search terms when exist
   let search = null;
   search = req.query.search ? req.query.search : search;
 
-  let hubspotCompanies = null;
-  hubspotCompanies = await getAllHubspotCompanies();
+  let hubspotCompanies = await getAllHubspotCompanies();
   if (search) {
     hubspotCompanies = searchHubspotCompanies(hubspotCompanies, search);
   }
@@ -118,7 +115,6 @@ router.get('/hubspot_companies', Liana.ensureAuthenticated, async (req, res, nex
 });
 
 module.exports = router;
-
 ```
 {% endcode %}
 

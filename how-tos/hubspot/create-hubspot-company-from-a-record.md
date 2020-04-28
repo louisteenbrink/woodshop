@@ -41,10 +41,6 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.ENUM,
       values: ['lead', 'customer', 'churn'],
     },
-    createdAt: {
-      type: DataTypes.DATE,
-      defaultValue: Sequelize.literal('now()'),
-    },
     crmId: {
       type: DataTypes.BIGINT,
     },
@@ -53,14 +49,11 @@ module.exports = (sequelize, DataTypes) => {
     underscored: true,
     timestamps: false,
     schema: process.env.DATABASE_SCHEMA,
+    paranoid: true,
   });
-
-  Companies.associate = (models) => {
-  };
 
   return Companies;
 };
-
 ```
 {% endcode %}
 
@@ -71,28 +64,21 @@ This directory contains the `companies.js` file where the smart action is declar
 {% code title="/forest/hubspot-companies.js" %}
 ```javascript
 const { collection } = require('forest-express-sequelize');
-const { getHubspotCompany, hubspotCompaniesSerializer } = require('../utils.js');
-
+​
 collection('companies', {
-  actions: [
-    {
+  actions: [{
       name: 'Create company in Hubspot',
       type: 'single',
-    },
-  ],
-  fields: [
-    {
+    }],
+  fields: [{
       // adding a field that will allow to be directed on click to the company's profile in hubspot
       field: 'crm link',
       type: 'String',
-      get: (company) => {
-        return company.crmId ? 'https://app.hubspot.com/contacts/6332498/company/' + company.dataValues.crmId : null;
-      },
-    },
-  ],
+      get: (company) => company.crmId ?
+        'https://app.hubspot.com/contacts/6332498/company/' + company.dataValues.crmId : null
+    }],
   segments: [],
 });
-
 ```
 {% endcode %}
 
@@ -111,10 +97,9 @@ The Hubspot API key is defined in the `.env` file and requested through the expr
 const express = require('express');
 const { PermissionMiddlewareCreator } = require('forest-express-sequelize');
 const { companies } = require('../models');
-const { getRecord, createHubspotCompany, setCrmId } = require('../utils.js');
+const superagent = require('superagent');
 
 const router = express.Router();
-const permissionMiddlewareCreator = new PermissionMiddlewareCreator('companies');
 
 // function that returns a sequelize object
 function getRecord(collection, recordId) {
