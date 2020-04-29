@@ -34,8 +34,6 @@ module.exports = (sequelize, DataTypes) => {
     schema: process.env.DATABASE_SCHEMA,
   });
 
-  Companies.associate = (models) => {
-  };
 
   return Companies;
 };
