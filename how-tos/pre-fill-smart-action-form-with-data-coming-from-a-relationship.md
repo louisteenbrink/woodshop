@@ -129,23 +129,23 @@ collection('movies', {
     fields: [{
       field: 'language',
       type: 'Boolean',
-      description: 'insert value to update field',
+      description: 'update the checkbox',
     }, {
       field: 'gore',
       type: 'Boolean',
-      description: 'insert value to update field',
+      description: 'update the checkbox',
     }, {
       field: 'drugs',
       type: 'Boolean',
-      description: 'insert value to update field',
+      description: 'update the checkbox',
     }, {
       field: 'graphicViolence',
       type: 'Boolean',
-      description: 'insert value to update field',
+      description: 'update the checkbox',
     }, {
       field: 'nudity',
       type: 'Boolean',
-      description: 'insert value to update field',
+      description: 'update the checkbox',
     }],
     values: async (context) => {
       console.log(context);
