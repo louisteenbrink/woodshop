@@ -151,8 +151,13 @@ collection('movies', {
       console.log(context);
       // sequelize query to fetch the movie record 
       // do not forget to include the movie characteristics model
-      const movie = await models.movies.findByPk(context.id, { include: [{ model: models.movieCharacteristics, as: 'movieCharacteristic' }] });
-      // Forest ADmin will match all of the form fields that have the same name 
+      const movie = await models.movies.findByPk(context.id, {
+          include: [{ 
+              model: models.movieCharacteristics,
+              as: 'movieCharacteristic' 
+          }] 
+      });
+      // Forest Admin will match all of the form fields that have the same name 
       // as your movie characteristics fields and pre-fill them
       return movie.movieCharacteristic;
     },
